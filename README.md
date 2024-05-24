@@ -9,12 +9,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Document</title>
+    <title>Mon Site Web</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Bonjour, monde!</h1>
+    <header>
+        <h1>Bienvenue sur mon site</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <!-- Contenu principal ici -->
+        </section>
+        
+        <aside>
+            <!-- Barre latérale ici -->
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mon Site Web. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
+
 ```
 <br>
 
