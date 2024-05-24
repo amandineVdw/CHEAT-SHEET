@@ -139,3 +139,28 @@ https://codepip.com/games/
 ```
 
 
+## TRICKS - 
+
+1- **Box Shadow Effect Adding shadows to elements can enhance their depth and visual appeal.**
+```
+.box {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+```
+*This code creates a subtle shadow around the .box element, enhancing its visual layering.
+<br>
+
+
+2- **Smooth Transition Animations CSS transitions are a simple way to enhance web page interactivity.**
+```
+.button {
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #3498db;
+}
+```
+*The button’s background color smoothly transitions to a new color when hovered over.
+<br>
+
+
