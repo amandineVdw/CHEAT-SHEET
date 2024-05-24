@@ -1,5 +1,81 @@
 # CSS CHEAT SHEET
 
+## CSS TEMPLATE -SQUELETTE
+
+```
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, nav, footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    padding: 1em;
+}
+
+section {
+    flex: 3;
+    padding: 1em;
+}
+
+aside {
+    flex: 1;
+    padding: 1em;
+    background-color: #f4f4f4;
+    margin-left: 1em;
+}
+
+footer {
+    text-align: center;
+}
+
+```
+<br>
+
+## RESET des marges et des paddings :
+```
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+```
+*  Cette règle CSS réinitialise toutes les marges et les paddings à zéro pour tous les éléments (*).
+* box-sizing: border-box permet de définir la largeur et la hauteur des éléments en incluant les bordures et les paddings, ce qui facilite le contrôle de la mise en page.
+
+
+
 ## RESPONSIVE Design - Requête de média
 
 **Résumé et usage des media queries**  
